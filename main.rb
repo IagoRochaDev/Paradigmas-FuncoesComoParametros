@@ -18,6 +18,14 @@ def ordenacao_decrescente(lista)
   end
 end
 
-lista = [5, 2, 1, 3, 4]
-executar_estrategia(lista, method(:ordenacao_crescente))
+def remove_duplicatas lista
+  mapa = Hash.new 0
+  lista.each do |i|
+    mapa[i] += 1
+  end
+  print mapa.keys.inspect
+end
+
+lista = [11,5,3,1,2,3,12,3,32,2,1,12,3,2,1,56,64,21]
+executar_estrategia(lista, method(:remove_duplicatas))
 
