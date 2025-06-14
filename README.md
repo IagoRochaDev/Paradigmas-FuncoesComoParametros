@@ -53,3 +53,16 @@ resultado = ordenacao_decrescente(lista)
 
 Essa abordagem demonstra o uso de funções como parâmetros, promovendo maior modularidade e clareza no código.
 
+## Remover duplicatas
+
+### Função `remove_duplicatas`
+
+A função `remove_duplicatas` mapeia os elementos de um vetor em uma tabela hash, onde cada chave representa um valor do vetor e seu respectivo valor indica a quantidade de ocorrências desse elemento. Em seguida, a função imprime as chaves do hash, correspondentes aos valores únicos do vetor, ou seja, sem repetições.
+
+**Exemplo de uso:**
+
+```ruby
+lista = [11,5,3,1,2,3,12,3,32,2,1,12,3,2,1,56,64,21]
+resultado = remove_duplicatas(lista)
+# resultado: [11, 5, 3, 1, 2, 12, 32, 56, 64, 21]
+```
