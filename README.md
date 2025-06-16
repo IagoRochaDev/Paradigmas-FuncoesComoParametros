@@ -57,12 +57,13 @@ Essa abordagem demonstra o uso de funções como parâmetros, promovendo maior m
 
 ### Função `remove_duplicatas`
 
-A função `remove_duplicatas` mapeia os elementos de um vetor em uma tabela hash, onde cada chave representa um valor do vetor e seu respectivo valor indica a quantidade de ocorrências desse elemento. Em seguida, a função imprime as chaves do hash, correspondentes aos valores únicos do vetor, ou seja, sem repetições.
+A função `remove_duplicatas` mapeia os elementos de um vetor em uma tabela hash, onde cada chave representa um valor do vetor e seu respectivo valor indica a quantidade de ocorrências desse elemento. Em seguida, o vetor original é substituído pelas chaves da hash, que correspondem aos valores únicos. Por fim, a função retorna esse novo vetor contendo apenas os elementos distintos.
 
-**Exemplo de uso:**
-
+**Exemplo de entrada:**
 ```ruby
-lista = [11,5,3,1,2,3,12,3,32,2,1,12,3,2,1,56,64,21]
-resultado = remove_duplicatas(lista)
-# resultado: [11, 5, 3, 1, 2, 12, 32, 56, 64, 21]
+[11,5,3,1,2,3,12,3,32,2,1,12,3,2,1,56,64,21]
+```
+**Exemplo de saída:**
+```ruby
+[11, 5, 3, 1, 2, 12, 32, 56, 64, 21]
 ```
