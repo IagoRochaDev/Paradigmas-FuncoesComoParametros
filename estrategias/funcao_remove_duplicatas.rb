@@ -3,5 +3,6 @@ def remove_duplicatas lista
   lista.each do |i|
     mapa[i] += 1
   end
-  print mapa.keys.inspect
+  lista = mapa.keys
+  lista
 end
