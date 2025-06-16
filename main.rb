@@ -20,6 +20,6 @@ def ordenacao_decrescente(lista)
   end
 end
 
+# Exemplo 4: Remoção de duplicatas
 lista = [11,5,3,1,2,3,12,3,32,2,1,12,3,2,1,56,64,21]
 executar_estrategia(lista, method(:remove_duplicatas))
-
