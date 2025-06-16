@@ -1,4 +1,4 @@
-require_relative '/estrategias/funcao_remove_duplicatas'
+require_relative 'estrategias/funcao_remove_duplicatas'
 
 def executar_estrategia(lista, estrategia)
   puts estrategia.call(lista)
