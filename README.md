@@ -27,12 +27,20 @@ Essa abordagem demonstra o uso de funções como parâmetros, promovendo maior m
 
 A função ordenacao_crescente recebe uma lista de elementos e retorna uma nova lista com os elementos ordenados do menor para o maior.
 
-**Exemplo de uso:**
+**Exemplo de uso 1:**
 
 ```ruby
 lista = [5, 2, 9, 1]
-resultado = ordenacao_crescente(lista)
-# resultado: [1, 2, 5, 9]
+ordenacao_crescente(lista)
+puts lista
+```
+
+**Exemplo de uso 2 passando a função como parametro:**
+
+```ruby
+lista = [5, 2, 9, 1]
+executar_estrategia(lista, method(:ordenacao_crescente))
+puts lista
 ```
 
 Essa abordagem demonstra o uso de funções como parâmetros, promovendo maior modularidade e clareza no código.
