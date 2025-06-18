@@ -77,3 +77,4 @@ A função `remove_duplicatas` mapeia os elementos de um vetor em uma tabela has
 ```ruby
 [11, 5, 3, 1, 2, 12, 32, 56, 64, 21]
 ```
+> Autor: [AnaLuizanc](https://github.com/AnaLuizanc)
