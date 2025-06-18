@@ -1,5 +1,6 @@
 require_relative 'estrategias/funcao_remove_duplicatas'
 require_relative 'estrategias/funcao_ordenacao_crescente'
+require_relative 'estrategias/funcao_retorna_pares'
 require_relative 'estrategias/funcao_ordenacao_decrescente'
 
 def executar_estrategia(lista, estrategia)
@@ -13,6 +14,9 @@ executar_estrategia(lista, method(:ordenacao_crescente))
 
 # Exemplo 2: Ordenação decrescente
 executar_estrategia(lista, method(:ordenacao_decrescente))
+
+# Exemplo 3: Filtragem de Números Pares
+executar_estrategia(lista, method(:filtrar_pares))
 
 # Exemplo 4: Remoção de duplicatas
 executar_estrategia(lista, method(:remove_duplicatas))
