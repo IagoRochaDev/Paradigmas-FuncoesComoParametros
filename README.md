@@ -61,6 +61,8 @@ resultado = ordenacao_decrescente(lista)
 
 Essa abordagem demonstra o uso de funções como parâmetros, promovendo maior modularidade e clareza no código.
 
+> Autor: Davi Mendes
+
 ## Remover duplicatas
 
 ### Função `remove_duplicatas`
